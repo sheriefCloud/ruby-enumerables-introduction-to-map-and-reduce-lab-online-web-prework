@@ -10,7 +10,10 @@ end
 def map_to_no_change(source_array)
   source_array.map {|i| i }
 end
-# map_to_double(source_array)
+
+def map_to_double(source_array)
+  source_array.map {|i| i *2}
+end
 # map_to_square(source_array)
 # Remember, all `map` methods return a new `Array`.
 #
