@@ -21,5 +21,6 @@ end
 # reduce_to_any_true(source_array)
 
 def reduce_to_all_true(source_array)
-  source_array.reduce { |i| i==true }
+  #source_array.reduce(true) { |case,i| i==true }
+  source_array.none? {|c| c == false}
 end
