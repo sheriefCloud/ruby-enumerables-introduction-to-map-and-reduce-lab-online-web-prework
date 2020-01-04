@@ -18,7 +18,10 @@ def reduce_to_total(source_array, starting_point = 0)
   source_array.reduce(starting_point) {|sum, num| sum + num}
 end
 # reduce_to_all_true(source_array)
-# reduce_to_any_true(source_array)
+def reduce_to_any_true(source_array)
+  source_array.any? {|c| c == true}
+
+end
 
 def reduce_to_all_true(source_array)
   #source_array.reduce(true) { |case,i| i==true }
