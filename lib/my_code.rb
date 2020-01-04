@@ -14,7 +14,9 @@ end
 def map_to_double(source_array)
   source_array.map {|i| i *2}
 end
-# map_to_square(source_array)
+def map_to_square(source_array)
+  source_array.map {|i| i * i}
+end
 # Remember, all `map` methods return a new `Array`.
 #
 #
