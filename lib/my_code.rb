@@ -20,6 +20,6 @@ end
 # reduce_to_all_true(source_array)
 # reduce_to_any_true(source_array)
 
-def reduce_to_any_true(source_array)
+def reduce_to_all_true(source_array)
   source_array.reduce { |i| i==true }
 end
